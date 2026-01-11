@@ -1,41 +1,12 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
-import { getLayout } from './pages/layout'
-import { aboutPage } from './pages/about'
-import { servicesPage } from './pages/services'
-import { productsPage } from './pages/products'
-import { pricingPage } from './pages/pricing'
-import { signinPage } from './pages/signin'
-import { getstartedPage } from './pages/getstarted'
 
 const app = new Hono()
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
-// Routes
-app.get('/about', (c) => {
-  return c.html(getLayout('About Us', aboutPage, 'about'))
-})
 
-app.get('/services', (c) => {
-  return c.html(getLayout('Our Services', servicesPage, 'services'))
-})
-
-app.get('/products', (c) => {
-  return c.html(getLayout('Our Products', productsPage, 'products'))
-})
-
-app.get('/pricing', (c) => {
-  return c.html(getLayout('Pricing', pricingPage, 'pricing'))
-})
-
-app.get('/signin', (c) => {
-  return c.html(getLayout('Sign In', signinPage, 'signin'))
-})
-
-app.get('/get-started', (c) => {
-  return c.html(getLayout('Get Started', getstartedPage, 'getstarted'))
-})
+// Home page
 app.get('/', (c) => {
   return c.html(`
     <!DOCTYPE html>
