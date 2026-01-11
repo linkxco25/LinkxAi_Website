@@ -7,11 +7,13 @@ import { productsPage } from './pages/products'
 import { pricingPage } from './pages/pricing'
 import { signinPage } from './pages/signin'
 import { getstartedPage } from './pages/getstarted'
+import { watchdemoPage } from './pages/watchdemo'
 
 const app = new Hono()
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
+
 // Routes
 app.get('/about', (c) => {
   return c.html(getLayout('About Us', aboutPage, 'about'))
@@ -35,6 +37,10 @@ app.get('/signin', (c) => {
 
 app.get('/get-started', (c) => {
   return c.html(getLayout('Get Started', getstartedPage, 'getstarted'))
+})
+
+app.get('/watch-demo', (c) => {
+  return c.html(getLayout('Watch Demo', watchdemoPage, 'watchdemo'))
 })
 app.get('/', (c) => {
   return c.html(`
@@ -68,10 +74,10 @@ app.get('/', (c) => {
                 </div>
                 
                 <div class="flex items-center space-x-4">
-                    <button class="text-white hover:text-purple-300 transition">Sign In</button>
-                    <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition">
+                    <a href="/signin" class="text-white hover:text-purple-300 transition">Sign In</a>
+                    <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition">
                         Get Started Free
-                    </button>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -96,13 +102,13 @@ app.get('/', (c) => {
                         </p>
                         
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <button class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition flex items-center justify-center space-x-2">
+                            <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition flex items-center justify-center space-x-2">
                                 <span>Get Started Free</span>
                                 <i class="fas fa-arrow-right"></i>
-                            </button>
-                            <button class="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg transition">
+                            </a>
+                            <a href="/watch-demo" class="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg transition">
                                 Watch Demo
-                            </button>
+                            </a>
                         </div>
                         
                         <div class="flex items-center space-x-8 mt-12">
@@ -229,13 +235,13 @@ app.get('/', (c) => {
                             </div>
                             
                             <div class="flex gap-4">
-                                <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
+                                <a href="/products" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
                                     <span>Learn More</span>
                                     <i class="fas fa-arrow-right"></i>
-                                </button>
-                                <button class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
+                                </a>
+                                <a href="/get-started" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
                                     Start Free Trial
-                                </button>
+                                </a>
                             </div>
                         </div>
                         
@@ -303,13 +309,13 @@ app.get('/', (c) => {
                             </div>
                             
                             <div class="flex gap-4">
-                                <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
+                                <a href="/products" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
                                     <span>Explore Features</span>
                                     <i class="fas fa-arrow-right"></i>
-                                </button>
-                                <button class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
+                                </a>
+                                <a href="/get-started" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
                                     Start Free Trial
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -363,13 +369,13 @@ app.get('/', (c) => {
                             </div>
                             
                             <div class="flex gap-4">
-                                <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
+                                <a href="/products" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition flex items-center space-x-2">
                                     <span>See How It Works</span>
                                     <i class="fas fa-arrow-right"></i>
-                                </button>
-                                <button class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
+                                </a>
+                                <a href="/get-started" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 rounded-lg transition">
                                     Start Free Trial
-                                </button>
+                                </a>
                             </div>
                         </div>
                         
@@ -383,10 +389,10 @@ app.get('/', (c) => {
                 </div>
                 
                 <div class="text-center mt-12">
-                    <button class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-4 rounded-lg transition inline-flex items-center space-x-2">
+                    <a href="/products" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-4 rounded-lg transition inline-flex items-center space-x-2">
                         <span class="font-semibold">View All Products & Features</span>
                         <i class="fas fa-arrow-right"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -725,9 +731,9 @@ app.get('/', (c) => {
                             </div>
                         </div>
                         
-                        <button class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg transition font-semibold">
+                        <a href="/get-started" class="block w-full bg-purple-600 hover:bg-purple-700 text-white text-center py-3 rounded-lg transition font-semibold">
                             Start Free Trial
-                        </button>
+                        </a>
                     </div>
                     
                     <!-- Professional -->
@@ -782,9 +788,9 @@ app.get('/', (c) => {
                             </div>
                         </div>
                         
-                        <button class="w-full bg-white text-purple-600 hover:bg-gray-100 py-3 rounded-lg transition font-semibold">
+                        <a href="/get-started" class="block w-full bg-white text-purple-600 hover:bg-gray-100 text-center py-3 rounded-lg transition font-semibold">
                             Get Started
-                        </button>
+                        </a>
                     </div>
                     
                     <!-- Enterprise -->
@@ -839,9 +845,9 @@ app.get('/', (c) => {
                             </div>
                         </div>
                         
-                        <button class="w-full border-2 border-purple-600 text-purple-600 hover:bg-purple-50 py-3 rounded-lg transition font-semibold">
+                        <a href="/get-started" class="block w-full border-2 border-purple-600 text-purple-600 hover:bg-purple-50 text-center py-3 rounded-lg transition font-semibold">
                             Contact Sales
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -942,13 +948,13 @@ app.get('/', (c) => {
                     </div>
                     
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition inline-flex items-center justify-center space-x-2">
+                        <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition inline-flex items-center justify-center space-x-2">
                             <span class="font-semibold">Get Started Free</span>
                             <i class="fas fa-arrow-right"></i>
-                        </button>
-                        <button class="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg transition border-2 border-white/30">
+                        </a>
+                        <a href="/get-started" class="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg transition border-2 border-white/30">
                             Talk to Sales
-                        </button>
+                        </a>
                     </div>
                     
                     <div class="flex items-center justify-center space-x-4 mt-8">
