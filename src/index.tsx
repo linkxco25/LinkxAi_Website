@@ -475,23 +475,23 @@ app.get('/', (c) => {
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="relative">
-                        <div class="absolute -top-8 -left-8 bg-white/10 backdrop-blur-sm rounded-2xl px-6 py-4">
+                        <div class="absolute -top-8 -left-8 bg-purple-600/80 backdrop-blur-sm rounded-2xl px-6 py-4 z-10">
                             <div class="text-white">
                                 <div class="text-sm mb-1">Years of Excellence</div>
-                                <div class="text-4xl font-bold">7+</div>
+                                <div class="text-5xl font-bold">7+</div>
                             </div>
                         </div>
-                        <img src="/static/images/about-section.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
+                        <img src="/static/images/about-section-new.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
                         <div class="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4">
                             <div class="flex items-center space-x-3">
                                 <div class="flex -space-x-2">
-                                    <div class="w-10 h-10 rounded-full bg-purple-500"></div>
-                                    <div class="w-10 h-10 rounded-full bg-pink-500"></div>
-                                    <div class="w-10 h-10 rounded-full bg-blue-500"></div>
+                                    <img src="https://i.pravatar.cc/40?img=1" class="w-10 h-10 rounded-full border-2 border-white" alt="Team member">
+                                    <img src="https://i.pravatar.cc/40?img=2" class="w-10 h-10 rounded-full border-2 border-white" alt="Team member">
+                                    <img src="https://i.pravatar.cc/40?img=3" class="w-10 h-10 rounded-full border-2 border-white" alt="Team member">
                                 </div>
                                 <div>
-                                    <div class="text-sm text-gray-500">+50</div>
-                                    <div class="text-xs text-gray-400">Join our team</div>
+                                    <div class="text-sm font-semibold text-purple-600">+50</div>
+                                    <div class="text-xs text-gray-500">Join our growing team of innovators shaping the future of business automation.</div>
                                 </div>
                             </div>
                         </div>
@@ -527,14 +527,23 @@ app.get('/', (c) => {
                         
                         <div class="grid grid-cols-3 gap-6">
                             <div class="text-center">
+                                <div class="flex items-center justify-center mb-3">
+                                    <i class="fas fa-users text-purple-300 text-3xl"></i>
+                                </div>
                                 <div class="text-3xl font-bold mb-2">10,000+</div>
                                 <div class="text-sm text-gray-300">Happy Customers</div>
                             </div>
                             <div class="text-center">
+                                <div class="flex items-center justify-center mb-3">
+                                    <i class="fas fa-globe text-purple-300 text-3xl"></i>
+                                </div>
                                 <div class="text-3xl font-bold mb-2">50+</div>
                                 <div class="text-sm text-gray-300">Countries Served</div>
                             </div>
                             <div class="text-center">
+                                <div class="flex items-center justify-center mb-3">
+                                    <i class="fas fa-trophy text-purple-300 text-3xl"></i>
+                                </div>
                                 <div class="text-3xl font-bold mb-2">15+</div>
                                 <div class="text-sm text-gray-300">Industry Awards</div>
                             </div>
