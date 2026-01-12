@@ -2,16 +2,16 @@ export const productsPage = `
   <section class="hero-section py-20">
     <div class="container mx-auto px-6 text-center">
       <span class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
-        <span>Nos Produits</span>
+        <span>Our Products</span>
       </span>
       
       <h1 class="text-5xl md:text-6xl font-bold mb-6 text-white">
-        Outils IA Puissants pour<br>
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">Transformer Votre Entreprise</span>
+        Powerful AI Tools to<br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">Transform Your Business</span>
       </h1>
       
       <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-        Trois produits de pointe travaillant ensemble pour automatiser votre marketing, renforcer les relations clients et débloquer une croissance basée sur les données.
+        Three cutting-edge products working together to automate your marketing, strengthen customer relationships, and unlock data-driven growth.
       </p>
     </div>
   </section>
@@ -27,14 +27,14 @@ export const productsPage = `
                 <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center">
                   <i class="fas fa-envelope text-white text-2xl"></i>
                 </div>
-                <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Le Plus Populaire</span>
+                <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
               </div>
               
               <h3 class="text-4xl font-bold mb-4">Linkx Mail</h3>
-              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Email Marketing Intelligent</h4>
+              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Smart Email Marketing</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
-                Créez des campagnes email personnalisées propulsées par l'IA. Notre système intelligent rédige des objets captivants, optimise les heures d'envoi et augmente les taux d'ouverture de 40%.
+                Create personalized email campaigns powered by AI. Our intelligent system writes compelling subject lines, optimizes send times, and increases open rates by 40%.
               </p>
               
               <div class="bg-white rounded-xl p-6 mb-6 inline-block shadow-lg">
@@ -42,7 +42,7 @@ export const productsPage = `
                   <i class="fas fa-clock text-purple-600 text-3xl"></i>
                   <div>
                     <div class="text-3xl font-bold">20 hrs</div>
-                    <div class="text-sm text-gray-500">Économisées par Semaine</div>
+                    <div class="text-sm text-gray-500">Saved Per Week</div>
                   </div>
                 </div>
               </div>
@@ -53,20 +53,20 @@ export const productsPage = `
             </div>
           </div>
           
-          <!-- Spécifications détaillées -->
+          <!-- Detailed Specifications -->
           <div class="bg-white rounded-2xl p-8 mb-8">
-            <h5 class="text-2xl font-bold mb-6 text-gray-800">Spécifications & Fonctionnalités</h5>
+            <h5 class="text-2xl font-bold mb-6 text-gray-800">Specifications & Features</h5>
             <div class="grid md:grid-cols-3 gap-8">
               <div>
                 <h6 class="font-semibold text-purple-600 mb-4 flex items-center">
-                  <i class="fas fa-robot mr-2"></i> IA & Automation
+                  <i class="fas fa-robot mr-2"></i> AI & Automation
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Génération de contenu par IA</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Optimisation automatique des objets</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Meilleur timing d'envoi</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Tests A/B automatisés</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Segmentation intelligente</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>AI-powered content generation</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Automatic subject line optimization</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Smart send time optimization</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Automated A/B testing</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Intelligent segmentation</li>
                 </ul>
               </div>
               <div>
@@ -74,69 +74,36 @@ export const productsPage = `
                   <i class="fas fa-chart-line mr-2"></i> Analytics & Insights
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Tableaux de bord en temps réel</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Analyse prédictive</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Real-time dashboards</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Predictive analytics</li>
                   <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>ROI tracking</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Rapports personnalisables</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Alertes intelligentes</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Customizable reports</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Smart alerts</li>
                 </ul>
               </div>
               <div>
                 <h6 class="font-semibold text-purple-600 mb-4 flex items-center">
-                  <i class="fas fa-plug mr-2"></i> Intégrations
+                  <i class="fas fa-plug mr-2"></i> Integrations
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>CRM majeurs (Salesforce, HubSpot)</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Major CRMs (Salesforce, HubSpot)</li>
                   <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>E-commerce (Shopify, WooCommerce)</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Zapier & API REST</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Zapier & REST API</li>
                   <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Google Analytics</li>
-                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Webhooks personnalisés</li>
+                  <li class="flex items-start"><i class="fas fa-check text-purple-600 mr-2 mt-1"></i>Custom webhooks</li>
                 </ul>
               </div>
             </div>
           </div>
           
-          <!-- Plans tarifaires Linkx Mail -->
-          <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white mb-8">
-            <h5 class="text-2xl font-bold mb-6">Plans Tarifaires Linkx Mail</h5>
-            <div class="grid md:grid-cols-3 gap-6">
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Starter</h6>
-                <div class="text-3xl font-bold mb-4">29€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>5 000 emails/mois</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>3 campagnes actives</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Segmentation basique</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support email</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-purple-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border-2 border-white">
-                <div class="bg-white text-purple-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Populaire</div>
-                <h6 class="font-semibold text-lg mb-2">Professional</h6>
-                <div class="text-3xl font-bold mb-4">79€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>50 000 emails/mois</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Campagnes illimitées</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Segmentation avancée</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Tests A/B illimités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support prioritaire</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-purple-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Enterprise</h6>
-                <div class="text-3xl font-bold mb-4">Sur mesure</div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Volume illimité</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Toutes les fonctionnalités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>IP dédiée</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Account manager</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>SLA garanti</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-purple-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Nous Contacter</a>
-              </div>
-            </div>
+          <div class="flex gap-4 justify-center">
+            <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition font-semibold text-lg inline-flex items-center space-x-2">
+              <span>Start Free Trial</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="/pricing" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-4 rounded-lg transition font-semibold text-lg">
+              View Pricing
+            </a>
           </div>
         </div>
       </div>
@@ -154,14 +121,14 @@ export const productsPage = `
                 <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center">
                   <i class="fas fa-chart-bar text-white text-2xl"></i>
                 </div>
-                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">IA Avancée</span>
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">AI Powered</span>
               </div>
               
               <h3 class="text-4xl font-bold mb-4">Linkx Mining</h3>
-              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Gestion des Opérations</h4>
+              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Operations Management</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
-                Visibilité et contrôle complets sur vos opérations. Surveillez les performances, optimisez les workflows et réduisez les temps d'arrêt avec des insights en temps réel.
+                Complete visibility and control over your operations. Monitor performance, optimize workflows, and reduce downtime with real-time insights.
               </p>
               
               <div class="bg-white rounded-xl p-6 mb-6 inline-block shadow-lg">
@@ -169,97 +136,64 @@ export const productsPage = `
                   <i class="fas fa-arrow-trend-up text-purple-600 text-3xl"></i>
                   <div>
                     <div class="text-3xl font-bold">30%</div>
-                    <div class="text-sm text-gray-500">Réduction des Temps d'Arrêt</div>
+                    <div class="text-sm text-gray-500">Downtime Reduction</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           
-          <!-- Spécifications détaillées -->
+          <!-- Detailed Specifications -->
           <div class="bg-white rounded-2xl p-8 mb-8">
-            <h5 class="text-2xl font-bold mb-6 text-gray-800">Spécifications & Fonctionnalités</h5>
+            <h5 class="text-2xl font-bold mb-6 text-gray-800">Specifications & Features</h5>
             <div class="grid md:grid-cols-3 gap-8">
               <div>
                 <h6 class="font-semibold text-blue-600 mb-4 flex items-center">
-                  <i class="fas fa-gauge-high mr-2"></i> Surveillance en Temps Réel
+                  <i class="fas fa-gauge-high mr-2"></i> Real-Time Monitoring
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Monitoring 24/7</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Alertes personnalisables</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Tableaux de bord multi-sites</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Métriques de performance</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Logs d'activité détaillés</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>24/7 monitoring</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Customizable alerts</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Multi-site dashboards</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Performance metrics</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Detailed activity logs</li>
                 </ul>
               </div>
               <div>
                 <h6 class="font-semibold text-blue-600 mb-4 flex items-center">
-                  <i class="fas fa-brain mr-2"></i> IA Prédictive
+                  <i class="fas fa-brain mr-2"></i> Predictive AI
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Maintenance prédictive</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Détection d'anomalies</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Optimisation automatique</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Prévisions de charge</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Recommandations IA</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Predictive maintenance</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Anomaly detection</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Automatic optimization</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Load forecasting</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>AI recommendations</li>
                 </ul>
               </div>
               <div>
                 <h6 class="font-semibold text-blue-600 mb-4 flex items-center">
-                  <i class="fas fa-shield-halved mr-2"></i> Sécurité & Conformité
+                  <i class="fas fa-shield-halved mr-2"></i> Security & Compliance
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Chiffrement de bout en bout</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Conformité ISO 27001</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Audit trails complets</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Contrôle d'accès granulaire</li>
-                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Backups automatiques</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>End-to-end encryption</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>ISO 27001 compliance</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Complete audit trails</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Granular access control</li>
+                  <li class="flex items-start"><i class="fas fa-check text-blue-600 mr-2 mt-1"></i>Automatic backups</li>
                 </ul>
               </div>
             </div>
           </div>
           
-          <!-- Plans tarifaires Linkx Mining -->
-          <div class="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-white mb-8">
-            <h5 class="text-2xl font-bold mb-6">Plans Tarifaires Linkx Mining</h5>
-            <div class="grid md:grid-cols-3 gap-6">
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Basic</h6>
-                <div class="text-3xl font-bold mb-4">99€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Jusqu'à 5 sites</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Monitoring basique</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Rapports hebdomadaires</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support email</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-blue-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border-2 border-white">
-                <div class="bg-white text-blue-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Recommandé</div>
-                <h6 class="font-semibold text-lg mb-2">Advanced</h6>
-                <div class="text-3xl font-bold mb-4">249€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Jusqu'à 25 sites</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Monitoring avancé + IA</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Maintenance prédictive</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Rapports quotidiens</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support 24/7</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-blue-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Enterprise</h6>
-                <div class="text-3xl font-bold mb-4">Sur mesure</div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Sites illimités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Toutes les fonctionnalités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Infrastructure dédiée</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Account manager dédié</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>SLA personnalisé</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-blue-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Nous Contacter</a>
-              </div>
-            </div>
+          <div class="flex gap-4 justify-center">
+            <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition font-semibold text-lg inline-flex items-center space-x-2">
+              <span>Start Free Trial</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="/pricing" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-4 rounded-lg transition font-semibold text-lg">
+              View Pricing
+            </a>
           </div>
         </div>
       </div>
@@ -277,10 +211,10 @@ export const productsPage = `
               </div>
               
               <h3 class="text-4xl font-bold mb-4">Linkx SRM</h3>
-              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Découverte de Fournisseurs</h4>
+              <h4 class="text-2xl text-purple-600 font-semibold mb-4">Supplier Discovery</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
-                Trouvez le fournisseur parfait en quelques minutes, pas des jours. Notre plateforme propulsée par l'IA vous connecte avec des fournisseurs vérifiés et simplifie votre processus d'approvisionnement.
+                Find the perfect supplier in minutes, not days. Our AI-powered platform connects you with verified suppliers and streamlines your procurement process.
               </p>
               
               <div class="bg-white rounded-xl p-6 mb-6 inline-block shadow-lg">
@@ -288,7 +222,7 @@ export const productsPage = `
                   <i class="fas fa-gauge-high text-purple-600 text-3xl"></i>
                   <div>
                     <div class="text-3xl font-bold">90%</div>
-                    <div class="text-sm text-gray-500">Plus Rapide</div>
+                    <div class="text-sm text-gray-500">Faster Discovery</div>
                   </div>
                 </div>
               </div>
@@ -299,90 +233,57 @@ export const productsPage = `
             </div>
           </div>
           
-          <!-- Spécifications détaillées -->
+          <!-- Detailed Specifications -->
           <div class="bg-white rounded-2xl p-8 mb-8">
-            <h5 class="text-2xl font-bold mb-6 text-gray-800">Spécifications & Fonctionnalités</h5>
+            <h5 class="text-2xl font-bold mb-6 text-gray-800">Specifications & Features</h5>
             <div class="grid md:grid-cols-3 gap-8">
               <div>
                 <h6 class="font-semibold text-pink-600 mb-4 flex items-center">
-                  <i class="fas fa-search mr-2"></i> Recherche & Matching
+                  <i class="fas fa-search mr-2"></i> Search & Matching
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Matching IA avancé</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Base de 100K+ fournisseurs</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Vérification instantanée</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Filtres intelligents</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Recommandations personnalisées</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Advanced AI matching</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>100K+ supplier database</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Instant verification</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Smart filters</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Personalized recommendations</li>
                 </ul>
               </div>
               <div>
                 <h6 class="font-semibold text-pink-600 mb-4 flex items-center">
-                  <i class="fas fa-handshake mr-2"></i> Gestion & Collaboration
+                  <i class="fas fa-handshake mr-2"></i> Management & Collaboration
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Négociations automatisées</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Gestion des contrats</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Onboarding simplifié</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Messagerie intégrée</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Documents partagés</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Automated negotiations</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Contract management</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Simplified onboarding</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Integrated messaging</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Shared documents</li>
                 </ul>
               </div>
               <div>
                 <h6 class="font-semibold text-pink-600 mb-4 flex items-center">
-                  <i class="fas fa-chart-pie mr-2"></i> Performance & Risques
+                  <i class="fas fa-chart-pie mr-2"></i> Performance & Risk
                 </h6>
                 <ul class="space-y-2 text-gray-600">
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Évaluation continue</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Analyse de risques</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>KPIs en temps réel</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Alertes de conformité</li>
-                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Rapports d'audit</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Continuous evaluation</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Risk analysis</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Real-time KPIs</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Compliance alerts</li>
+                  <li class="flex items-start"><i class="fas fa-check text-pink-600 mr-2 mt-1"></i>Audit reports</li>
                 </ul>
               </div>
             </div>
           </div>
           
-          <!-- Plans tarifaires Linkx SRM -->
-          <div class="bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl p-8 text-white mb-8">
-            <h5 class="text-2xl font-bold mb-6">Plans Tarifaires Linkx SRM</h5>
-            <div class="grid md:grid-cols-3 gap-6">
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Starter</h6>
-                <div class="text-3xl font-bold mb-4">149€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>10 fournisseurs actifs</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Recherche de base</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>5 utilisateurs</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support email</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-pink-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border-2 border-white">
-                <div class="bg-white text-pink-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Populaire</div>
-                <h6 class="font-semibold text-lg mb-2">Business</h6>
-                <div class="text-3xl font-bold mb-4">399€<span class="text-lg font-normal">/mois</span></div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Fournisseurs illimités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Matching IA avancé</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>25 utilisateurs</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Analyse de risques</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support prioritaire</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-pink-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Commencer</a>
-              </div>
-              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <h6 class="font-semibold text-lg mb-2">Enterprise</h6>
-                <div class="text-3xl font-bold mb-4">Sur mesure</div>
-                <ul class="space-y-2 text-sm">
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Volume illimité</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Toutes les fonctionnalités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Utilisateurs illimités</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Intégrations personnalisées</li>
-                  <li class="flex items-start"><i class="fas fa-check mr-2 mt-1"></i>Support dédié 24/7</li>
-                </ul>
-                <a href="/get-started" class="block mt-4 bg-white text-pink-600 text-center py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Nous Contacter</a>
-              </div>
-            </div>
+          <div class="flex gap-4 justify-center">
+            <a href="/get-started" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg transition font-semibold text-lg inline-flex items-center space-x-2">
+              <span>Start Free Trial</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="/pricing" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-4 rounded-lg transition font-semibold text-lg">
+              View Pricing
+            </a>
           </div>
         </div>
       </div>
@@ -393,19 +294,19 @@ export const productsPage = `
   <section class="py-20 bg-gradient-to-r from-purple-600 to-pink-600">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
-        Prêt à Transformer Votre Entreprise ?
+        Ready to Transform Your Business?
       </h2>
       <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-        Rejoignez plus de 10 000 entreprises qui utilisent nos solutions pour automatiser leurs processus et accélérer leur croissance.
+        Join over 10,000 businesses using our solutions to automate their processes and accelerate their growth.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="/get-started" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition inline-flex items-center justify-center">
-          Commencer Gratuitement
+          Get Started Free
           <i class="fas fa-arrow-right ml-2"></i>
         </a>
         <a href="/watch-demo" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/10 transition inline-flex items-center justify-center">
           <i class="fas fa-play mr-2"></i>
-          Voir la Démo
+          Watch Demo
         </a>
       </div>
     </div>

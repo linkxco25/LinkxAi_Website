@@ -129,7 +129,7 @@ app.get('/', (c) => {
                     
                     <div class="relative">
                         <div class="relative z-10">
-                            <img src="/static/images/hero-dashboard.png" alt="Dashboard Analytics" class="rounded-2xl shadow-2xl">
+                            <img src="/static/images/hero-dashboard-new.png" alt="Dashboard Analytics" class="rounded-2xl shadow-2xl">
                             
                             <!-- Floating Stats -->
                             <div class="absolute -left-4 top-1/4 bg-white rounded-2xl shadow-xl p-4 animate-float">
@@ -858,13 +858,13 @@ app.get('/', (c) => {
             <div class="container mx-auto px-6">
                 <div class="text-center mb-4">
                     <span class="inline-flex items-center space-x-2 bg-purple-100 text-purple-600 px-4 py-2 rounded-full text-sm font-semibold">
-                        <span>Témoignages</span>
+                        <span>Testimonials</span>
                     </span>
                 </div>
                 
                 <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
-                    Approuvé par les<br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Leaders du Secteur</span>
+                    Trusted by Industry<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Leaders Worldwide</span>
                 </h2>
                 
                 <div class="grid md:grid-cols-3 gap-8 mb-12">
@@ -872,7 +872,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Linkx-AI a transformé notre processus de vente. Nous avons vu une augmentation de 200% des leads qualifiés dès le premier trimestre."
+                            "Linkx-AI transformed our entire sales process. We saw a 200% increase in qualified leads within the first quarter."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -894,7 +894,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Linkx Mining nous a permis de réduire nos temps d'arrêt de 35%. La maintenance prédictive est un vrai game-changer pour notre industrie."
+                            "Linkx Mining helped us reduce downtime by 35%. The predictive maintenance is a real game-changer for our industry."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -916,7 +916,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Le SRM de Linkx a révolutionné notre chaîne d'approvisionnement. Nous trouvons maintenant des fournisseurs qualifiés en quelques heures au lieu de semaines."
+                            "Linkx SRM revolutionized our supply chain. We now find qualified suppliers in hours instead of weeks."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -935,13 +935,13 @@ app.get('/', (c) => {
                     </div>
                 </div>
                 
-                <!-- Deuxième rangée de testimonials -->
+                <!-- Second row of testimonials -->
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Testimonial 4 -->
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "L'outil d'email marketing IA économise à notre équipe plus de 25 heures par semaine. Le ROI a été immédiat et impressionnant."
+                            "The AI email marketing tool saves our team over 25 hours per week. The ROI was immediate and impressive."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -963,7 +963,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "La plateforme est intuitive et puissante. Notre taux de satisfaction client a augmenté de 40% depuis que nous utilisons Linkx-AI."
+                            "The platform is intuitive and powerful. Our customer satisfaction rate has increased 40% since using Linkx-AI."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -985,7 +985,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Interface exceptionnelle et support client réactif. Linkx-AI est devenu un outil indispensable pour notre croissance."
+                            "Exceptional interface and responsive customer support. Linkx-AI has become an essential tool for our growth."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>

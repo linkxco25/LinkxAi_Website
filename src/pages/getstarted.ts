@@ -47,36 +47,36 @@ export const getstartedPage = `
           <div class="w-20 h-20 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-xl transform hover:scale-110 transition-transform">
             <i class="fas fa-rocket text-white text-4xl"></i>
           </div>
-          <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Commencez Gratuitement</h1>
-          <p class="text-xl text-gray-200">Rejoignez 10 000+ entreprises utilisant Linkx-AI</p>
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Get Started Free</h1>
+          <p class="text-xl text-gray-200">Join 10,000+ businesses using Linkx-AI</p>
         </div>
         
         <div class="bg-white/95 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-12 transform hover:scale-[1.01] transition-transform">
           <form class="space-y-6">
             <div class="grid md:grid-cols-2 gap-6">
               <div>
-                <label class="block text-sm font-semibold text-gray-700 mb-2">Prénom</label>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
                 <div class="relative">
                   <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                     <i class="fas fa-user text-gray-400"></i>
                   </div>
                   <input 
                     type="text" 
-                    placeholder="Jean"
+                    placeholder="John"
                     class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition"
                     required
                   >
                 </div>
               </div>
               <div>
-                <label class="block text-sm font-semibold text-gray-700 mb-2">Nom</label>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Last Name</label>
                 <div class="relative">
                   <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                     <i class="fas fa-user text-gray-400"></i>
                   </div>
                   <input 
                     type="text" 
-                    placeholder="Dupont"
+                    placeholder="Doe"
                     class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition"
                     required
                   >
@@ -85,14 +85,14 @@ export const getstartedPage = `
             </div>
             
             <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Email Professionnel</label>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Work Email</label>
               <div class="relative">
                 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <i class="fas fa-envelope text-gray-400"></i>
                 </div>
                 <input 
                   type="email" 
-                  placeholder="vous@entreprise.fr"
+                  placeholder="you@company.com"
                   class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition"
                   required
                 >
@@ -100,14 +100,14 @@ export const getstartedPage = `
             </div>
             
             <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Nom de l'Entreprise</label>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Company Name</label>
               <div class="relative">
                 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <i class="fas fa-building text-gray-400"></i>
                 </div>
                 <input 
                   type="text" 
-                  placeholder="Votre Entreprise SAS"
+                  placeholder="Your Company Inc."
                   class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition"
                   required
                 >
@@ -115,17 +115,17 @@ export const getstartedPage = `
             </div>
             
             <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Taille de l'Entreprise</label>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Company Size</label>
               <div class="relative">
                 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <i class="fas fa-users text-gray-400"></i>
                 </div>
                 <select class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition appearance-none">
-                  <option>1-10 employés</option>
-                  <option>11-50 employés</option>
-                  <option>51-200 employés</option>
-                  <option>201-500 employés</option>
-                  <option>501+ employés</option>
+                  <option>1-10 employees</option>
+                  <option>11-50 employees</option>
+                  <option>51-200 employees</option>
+                  <option>201-500 employees</option>
+                  <option>501+ employees</option>
                 </select>
                 <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
                   <i class="fas fa-chevron-down text-gray-400"></i>
@@ -134,28 +134,28 @@ export const getstartedPage = `
             </div>
             
             <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Mot de Passe</label>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Password</label>
               <div class="relative">
                 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <i class="fas fa-lock text-gray-400"></i>
                 </div>
                 <input 
                   type="password" 
-                  placeholder="Créez un mot de passe sécurisé"
+                  placeholder="Create a secure password"
                   class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-purple-600 focus:outline-none transition"
                   required
                 >
               </div>
               <p class="text-sm text-gray-500 mt-1 flex items-center">
                 <i class="fas fa-info-circle mr-1"></i>
-                Au moins 8 caractères
+                Must be at least 8 characters
               </p>
             </div>
             
             <div class="flex items-start space-x-3">
               <input type="checkbox" class="w-5 h-5 mt-1 text-purple-600 border-gray-300 rounded focus:ring-purple-500" required>
               <label class="text-sm text-gray-600">
-                J'accepte les <a href="#" class="text-purple-600 hover:text-purple-700 font-semibold">Conditions d'Utilisation</a> et la <a href="#" class="text-purple-600 hover:text-purple-700 font-semibold">Politique de Confidentialité</a>
+                I agree to the <a href="#" class="text-purple-600 hover:text-purple-700 font-semibold">Terms of Service</a> and <a href="#" class="text-purple-600 hover:text-purple-700 font-semibold">Privacy Policy</a>
               </label>
             </div>
             
@@ -164,14 +164,14 @@ export const getstartedPage = `
               class="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white py-4 rounded-lg transition font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-0.5"
             >
               <i class="fas fa-rocket mr-2"></i>
-              Démarrez Votre Essai Gratuit
+              Start Your Free Trial
             </button>
           </form>
           
           <div class="mt-6 text-center">
             <p class="text-gray-600">
-              Vous avez déjà un compte ? 
-              <a href="/signin" class="text-purple-600 hover:text-purple-700 font-semibold">Se Connecter</a>
+              Already have an account? 
+              <a href="/signin" class="text-purple-600 hover:text-purple-700 font-semibold">Sign In</a>
             </p>
           </div>
           
@@ -181,19 +181,19 @@ export const getstartedPage = `
                 <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2">
                   <i class="fas fa-calendar-check text-purple-600"></i>
                 </div>
-                <div class="text-xs font-semibold text-gray-700">Essai de 14 jours</div>
+                <div class="text-xs font-semibold text-gray-700">14-day trial</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4 text-center">
                 <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2">
                   <i class="fas fa-credit-card text-purple-600"></i>
                 </div>
-                <div class="text-xs font-semibold text-gray-700">Sans carte bancaire</div>
+                <div class="text-xs font-semibold text-gray-700">No credit card</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4 text-center">
                 <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2">
                   <i class="fas fa-times-circle text-purple-600"></i>
                 </div>
-                <div class="text-xs font-semibold text-gray-700">Annulation facile</div>
+                <div class="text-xs font-semibold text-gray-700">Cancel anytime</div>
               </div>
             </div>
             
@@ -207,8 +207,8 @@ export const getstartedPage = `
                     <img src="https://i.pravatar.cc/150?img=20" alt="User" class="w-8 h-8 rounded-full border-2 border-white">
                   </div>
                   <div class="text-sm">
-                    <div class="font-bold text-gray-800">10 000+ utilisateurs actifs</div>
-                    <div class="text-gray-600">ont déjà rejoint Linkx-AI</div>
+                    <div class="font-bold text-gray-800">10,000+ active users</div>
+                    <div class="text-gray-600">have joined Linkx-AI</div>
                   </div>
                 </div>
                 <div class="flex items-center space-x-1 bg-white rounded-lg px-3 py-1">
@@ -223,22 +223,22 @@ export const getstartedPage = `
           <div class="mt-8 flex items-center justify-center space-x-6 text-xs text-gray-500">
             <div class="flex items-center space-x-1">
               <i class="fas fa-shield-halved text-purple-600"></i>
-              <span>Données Sécurisées</span>
+              <span>Secure Data</span>
             </div>
             <div class="flex items-center space-x-1">
               <i class="fas fa-lock text-purple-600"></i>
-              <span>SSL Chiffré</span>
+              <span>SSL Encrypted</span>
             </div>
             <div class="flex items-center space-x-1">
               <i class="fas fa-check-circle text-purple-600"></i>
-              <span>RGPD Conforme</span>
+              <span>GDPR Compliant</span>
             </div>
           </div>
         </div>
         
         <!-- Social proof logos -->
         <div class="mt-12 text-center">
-          <p class="text-white/80 text-sm mb-6">Entreprises qui nous font confiance</p>
+          <p class="text-white/80 text-sm mb-6">Trusted by companies</p>
           <div class="flex items-center justify-center space-x-8 opacity-60">
             <div class="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
               <i class="fas fa-building text-white text-2xl"></i>
