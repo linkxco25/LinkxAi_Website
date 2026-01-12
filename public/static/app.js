@@ -151,15 +151,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Parallax effect for hero section
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const heroElements = document.querySelectorAll('.hero-section > *');
-        heroElements.forEach((element, index) => {
-            const speed = 0.5 + (index * 0.1);
-            element.style.transform = `translateY(${scrolled * speed}px)`;
-        });
-    });
+    // Parallax effect for hero section - DISABLED
+    // Removed to eliminate sliding animations
 
     // Testimonial carousel (simple implementation)
     let currentTestimonial = 0;

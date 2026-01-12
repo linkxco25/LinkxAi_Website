@@ -145,8 +145,9 @@ button:focus, a:focus {
     outline-offset: 4px;
 }
 
-/* Smooth Transitions */
-* {
+/* Smooth Transitions - DISABLED for slide animations */
+/* Kept only essential transitions */
+button, a, input, select {
     transition: all 0.3s ease;
 }
 
@@ -155,20 +156,11 @@ button:focus, a:focus {
     background-color: #7c3aed;
 }
 
-/* Stats Counter Animation */
-@keyframes countUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
+/* Stats Counter Animation - DISABLED */
+/* Removed sliding animation */
 .stat-counter {
-    animation: countUp 0.8s ease-out;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Parallax Effect */
@@ -208,20 +200,11 @@ button:focus, a:focus {
     transform: rotate(360deg) scale(1.2);
 }
 
-/* Mobile Menu Animation */
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
+/* Mobile Menu Animation - DISABLED */
+/* Removed sliding animation */
 .mobile-menu {
-    animation: slideIn 0.3s ease-out;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 /* Gradient Borders */
