@@ -249,7 +249,7 @@ app.get('/', (c) => {
                             <div class="absolute top-4 right-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-sparkles"></i> AI-Powered</span>
                             </div>
-                            <img src="/static/images/linkx-mail.png" alt="Linkx Mail" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-mail-new.png" alt="Linkx Mail" class="rounded-2xl shadow-xl">
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@ app.get('/', (c) => {
                             <div class="absolute top-4 left-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-robot"></i> AI Powered</span>
                             </div>
-                            <img src="/static/images/linkx-mining.png" alt="Linkx Mining" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-mining-new.png" alt="Linkx Mining" class="rounded-2xl shadow-xl">
                         </div>
                         
                         <div class="order-1 md:order-2">
@@ -383,7 +383,7 @@ app.get('/', (c) => {
                             <div class="absolute top-4 right-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-shield-halved"></i> AI-Powered</span>
                             </div>
-                            <img src="/static/images/linkx-srm.png" alt="Linkx SRM" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-srm-new.png" alt="Linkx SRM" class="rounded-2xl shadow-xl">
                         </div>
                     </div>
                 </div>
@@ -858,58 +858,149 @@ app.get('/', (c) => {
             <div class="container mx-auto px-6">
                 <div class="text-center mb-4">
                     <span class="inline-flex items-center space-x-2 bg-purple-100 text-purple-600 px-4 py-2 rounded-full text-sm font-semibold">
-                        <span>Testimonials</span>
+                        <span>Témoignages</span>
                     </span>
                 </div>
                 
                 <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
-                    Trusted by Industry<br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Leaders Worldwide</span>
+                    Approuvé par les<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Leaders du Secteur</span>
                 </h2>
                 
-                <div class="max-w-4xl mx-auto">
-                    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
-                        <i class="fas fa-quote-left text-purple-200 text-5xl mb-6"></i>
-                        
-                        <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed">
-                            "Linkx-AI transformed our entire sales process. We saw a 200% increase in qualified leads within the first quarter. The AI Email tool alone saves our team 20+ hours per week."
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "Linkx-AI a transformé notre processus de vente. Nous avons vu une augmentation de 200% des leads qualifiés dès le premier trimestre."
                         </p>
-                        
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full"></div>
-                                <div>
-                                    <div class="font-bold text-lg">Sarah Mitchell</div>
-                                    <div class="text-gray-600">CEO, TechVentures Inc.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="flex space-x-1">
-                                <i class="fas fa-star text-yellow-400 text-xl"></i>
-                                <i class="fas fa-star text-yellow-400 text-xl"></i>
-                                <i class="fas fa-star text-yellow-400 text-xl"></i>
-                                <i class="fas fa-star text-yellow-400 text-xl"></i>
-                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=47" alt="Sarah Mitchell" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">Sarah Mitchell</div>
+                                <div class="text-sm text-gray-600">CEO, TechVentures Inc.</div>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="flex justify-center items-center space-x-4 mt-8">
-                        <button class="w-12 h-12 rounded-full border-2 border-purple-600 flex items-center justify-center hover:bg-purple-600 hover:text-white transition">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        
-                        <div class="flex space-x-2">
-                            <div class="w-3 h-3 rounded-full bg-purple-600"></div>
-                            <div class="w-3 h-3 rounded-full bg-gray-300"></div>
-                            <div class="w-3 h-3 rounded-full bg-gray-300"></div>
-                            <div class="w-3 h-3 rounded-full bg-gray-300"></div>
-                            <div class="w-3 h-3 rounded-full bg-gray-300"></div>
+                    <!-- Testimonial 2 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "Linkx Mining nous a permis de réduire nos temps d'arrêt de 35%. La maintenance prédictive est un vrai game-changer pour notre industrie."
+                        </p>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
                         </div>
-                        
-                        <button class="w-12 h-12 rounded-full border-2 border-purple-600 flex items-center justify-center hover:bg-purple-600 hover:text-white transition">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=12" alt="Marcus Chen" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">Marcus Chen</div>
+                                <div class="text-sm text-gray-600">COO, Industrial Systems Ltd.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "Le SRM de Linkx a révolutionné notre chaîne d'approvisionnement. Nous trouvons maintenant des fournisseurs qualifiés en quelques heures au lieu de semaines."
+                        </p>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=32" alt="Elena Rodriguez" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">Elena Rodriguez</div>
+                                <div class="text-sm text-gray-600">Director, Global Procurement</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deuxième rangée de testimonials -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Testimonial 4 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "L'outil d'email marketing IA économise à notre équipe plus de 25 heures par semaine. Le ROI a été immédiat et impressionnant."
+                        </p>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=68" alt="David Thompson" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">David Thompson</div>
+                                <div class="text-sm text-gray-600">Marketing Director, RetailCo</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 5 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "La plateforme est intuitive et puissante. Notre taux de satisfaction client a augmenté de 40% depuis que nous utilisons Linkx-AI."
+                        </p>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=20" alt="Amara Okafor" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">Amara Okafor</div>
+                                <div class="text-sm text-gray-600">VP Customer Success, FinTech Solutions</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 6 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
+                        <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            "Interface exceptionnelle et support client réactif. Linkx-AI est devenu un outil indispensable pour notre croissance."
+                        </p>
+                        <div class="flex space-x-1 mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <img src="https://i.pravatar.cc/150?img=51" alt="Lucas Dubois" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="font-bold">Lucas Dubois</div>
+                                <div class="text-sm text-gray-600">Founder, StartupHub</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

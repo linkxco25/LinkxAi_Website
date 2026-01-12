@@ -1,4 +1,9 @@
 export const getLayout = (title: string, content: string, activePage: string = 'home') => {
+  // Auth pages (signin, getstarted) have their own full-page purple design with embedded nav
+  const isAuthPage = activePage === 'signin' || activePage === 'getstarted';
+  const navBgColor = isAuthPage ? 'bg-purple-800/80' : 'bg-gray-900/95';
+  const mainPadding = isAuthPage ? 'pt-0' : 'pt-20';
+  
   return `
     <!DOCTYPE html>
     <html lang="fr">
@@ -11,8 +16,39 @@ export const getLayout = (title: string, content: string, activePage: string = '
         <link href="/static/styles.css" rel="stylesheet">
     </head>
     <body class="bg-white">
+        ${isAuthPage ? `
+        <!-- Navigation for Auth Pages (Purple) -->
+        <nav class="fixed top-0 left-0 right-0 ${navBgColor} backdrop-blur-sm z-50 py-4 shadow-xl">
+            <div class="container mx-auto px-6 flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="/" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
+                            <i class="fas fa-link text-white text-xl"></i>
+                        </div>
+                        <span class="text-white text-xl font-bold">Linkx-AI</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8 text-white">
+                    <a href="/" class="hover:text-purple-200 transition">Home</a>
+                    <a href="/products" class="hover:text-purple-200 transition">Products</a>
+                    <a href="/pricing" class="hover:text-purple-200 transition">Pricing</a>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    ${activePage === 'signin' ? `
+                    <a href="/get-started" class="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white px-6 py-2 rounded-lg transition border border-white/30">
+                        Get Started Free
+                    </a>
+                    ` : `
+                    <a href="/signin" class="text-white hover:text-purple-200 transition">Sign In</a>
+                    `}
+                </div>
+            </div>
+        </nav>
+        ` : `
         <!-- Navigation -->
-        <nav class="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50 py-4 shadow-lg">
+        <nav class="fixed top-0 left-0 right-0 ${navBgColor} backdrop-blur-sm z-50 py-4 shadow-lg">
             <div class="container mx-auto px-6 flex items-center justify-between">
                 <div class="flex items-center space-x-2">
                     <a href="/" class="flex items-center space-x-2">
@@ -39,9 +75,10 @@ export const getLayout = (title: string, content: string, activePage: string = '
                 </div>
             </div>
         </nav>
+        `}
 
         <!-- Content -->
-        <main class="pt-20">
+        <main class="${mainPadding}">
             ${content}
         </main>
 
