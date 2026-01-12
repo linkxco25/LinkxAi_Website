@@ -254,6 +254,113 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Enhanced Typing animation for hero titles
+    function typeWriter(element, text, speed = 80, callback) {
+        let i = 0;
+        element.textContent = '';
+        element.style.borderRight = '3px solid #7c3aed';
+        element.style.paddingRight = '5px';
+        element.style.display = 'inline-block';
+        
+        function type() {
+            if (i < text.length) {
+                element.textContent += text.charAt(i);
+                i++;
+                setTimeout(type, speed);
+            } else {
+                // Keep blinking cursor for a moment
+                setTimeout(() => {
+                    element.style.borderRight = 'none';
+                    element.style.animation = 'none';
+                    if (callback) callback();
+                }, 1000);
+            }
+        }
+        
+        // Add blinking cursor animation
+        element.style.animation = 'blink-caret 0.75s step-end infinite';
+        type();
+    }
+
+    // Animate main heading with typing effect (only once per session)
+    const typingText = document.querySelector('.typing-text');
+    const typingGradient = document.querySelector('.typing-gradient');
+    
+    if (typingText && !sessionStorage.getItem('hero-typed')) {
+        const text1 = typingText.textContent.trim();
+        const text2 = typingGradient ? typingGradient.textContent.trim() : '';
+        
+        // Type first part
+        typeWriter(typingText, text1, 60, () => {
+            // Then type gradient part
+            if (typingGradient) {
+                setTimeout(() => {
+                    typeWriter(typingGradient, text2, 60);
+                }, 300);
+            }
+        });
+        
+        sessionStorage.setItem('hero-typed', 'true');
+    }
+
+    // Animate gradient text
+    document.querySelectorAll('.gradient-text, .text-transparent.bg-clip-text').forEach(element => {
+        if (!element.classList.contains('animated-gradient-text')) {
+            element.classList.add('animated-gradient-text');
+        }
+    });
+
+    // Letter by letter animation
+    function animateLetters(element) {
+        const text = element.textContent;
+        element.textContent = '';
+        element.classList.add('animate-letters');
+        
+        text.split('').forEach((char, index) => {
+            const span = document.createElement('span');
+            span.textContent = char === ' ' ? '\u00A0' : char;
+            span.style.animationDelay = `${index * 0.05}s`;
+            element.appendChild(span);
+        });
+    }
+
+    // Apply letter animation to section headings on scroll
+    const headingObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !entry.target.classList.contains('animate-letters')) {
+                // Only animate h2 and h3 headings that are main section titles
+                if (entry.target.tagName === 'H2' && entry.target.textContent.length < 100) {
+                    setTimeout(() => {
+                        animateLetters(entry.target);
+                    }, 200);
+                }
+            }
+        });
+    }, { threshold: 0.5 });
+
+    // Observe all h2 headings
+    document.querySelectorAll('h2').forEach(heading => {
+        // Skip if already has complex HTML structure
+        if (heading.children.length === 0 || heading.querySelector('span.text-transparent')) {
+            headingObserver.observe(heading);
+        }
+    });
+
+    // Fade in animation for paragraphs
+    const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in-up');
+                fadeObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.2 });
+
+    // Observe paragraphs and feature cards
+    document.querySelectorAll('section p, .feature-card, .testimonial-card').forEach(element => {
+        fadeObserver.observe(element);
+    });
+
     // Console welcome message
     console.log('%c🚀 Linkx-AI', 'font-size: 24px; font-weight: bold; color: #7c3aed;');
     console.log('%cWelcome to Linkx-AI! Built with Hono + Cloudflare Pages', 'font-size: 14px; color: #6b7280;');

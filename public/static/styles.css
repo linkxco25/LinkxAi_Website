@@ -340,3 +340,99 @@ input[type="email"]:focus {
 .tooltip:hover::after {
     opacity: 1;
 }
+
+/* Typing Animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #7c3aed;
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: 3px solid #7c3aed;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
+
+/* Fade in animation for text */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Gradient text animation */
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient-text {
+    background: linear-gradient(270deg, #a855f7, #ec4899, #7c3aed);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-shift 3s ease infinite;
+}
+
+/* Letter by letter animation */
+@keyframes fadeInLetter {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-letters span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInLetter 0.5s ease-out forwards;
+}
+
+.animate-letters span:nth-child(1) { animation-delay: 0.1s; }
+.animate-letters span:nth-child(2) { animation-delay: 0.2s; }
+.animate-letters span:nth-child(3) { animation-delay: 0.3s; }
+.animate-letters span:nth-child(4) { animation-delay: 0.4s; }
+.animate-letters span:nth-child(5) { animation-delay: 0.5s; }
+.animate-letters span:nth-child(6) { animation-delay: 0.6s; }
+.animate-letters span:nth-child(7) { animation-delay: 0.7s; }
+.animate-letters span:nth-child(8) { animation-delay: 0.8s; }
+.animate-letters span:nth-child(9) { animation-delay: 0.9s; }
+.animate-letters span:nth-child(10) { animation-delay: 1.0s; }

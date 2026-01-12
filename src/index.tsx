@@ -92,9 +92,9 @@ app.get('/', (c) => {
                             <span class="text-sm">AI-Powered Business Growth Platform</span>
                         </div>
                         
-                        <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                            Grow Your Business<br>
-                            with AI <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">Software</span>
+                        <h1 id="hero-title" class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                            <span class="typing-text">Grow Your Business</span><br>
+                            with AI <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 typing-gradient">Software</span>
                         </h1>
                         
                         <p class="text-lg text-gray-300 mb-8">
@@ -406,9 +406,9 @@ app.get('/', (c) => {
                     </span>
                 </div>
                 
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-4">
-                    Everything You Need to <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Scale</span><br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Your Business</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 animate-on-scroll">
+                    Everything You Need to <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 animated-gradient-text">Scale</span><br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 animated-gradient-text">Your Business</span>
                 </h2>
                 
                 <p class="text-center text-gray-600 text-lg mb-16 max-w-3xl mx-auto">
