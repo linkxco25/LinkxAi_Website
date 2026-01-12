@@ -59,18 +59,20 @@ app.get('/', (c) => {
         <nav class="fixed top-0 left-0 right-0 bg-transparent z-50 py-4">
             <div class="container mx-auto px-6 flex items-center justify-between">
                 <div class="flex items-center space-x-2">
-                    <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl flex items-center justify-center">
-                        <i class="fas fa-link text-white text-xl"></i>
-                    </div>
-                    <span class="text-white text-xl font-bold">Linkx-AI</span>
+                    <a href="/" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl flex items-center justify-center">
+                            <i class="fas fa-link text-white text-xl"></i>
+                        </div>
+                        <span class="text-white text-xl font-bold">Linkx-AI</span>
+                    </a>
                 </div>
                 
                 <div class="hidden md:flex items-center space-x-8 text-white">
-                    <a href="#home" class="hover:text-purple-300 transition">Home</a>
-                    <a href="#about" class="hover:text-purple-300 transition">About</a>
-                    <a href="#services" class="hover:text-purple-300 transition">Services</a>
-                    <a href="#products" class="hover:text-purple-300 transition">Products</a>
-                    <a href="#pricing" class="hover:text-purple-300 transition">Pricing</a>
+                    <a href="/" class="hover:text-purple-300 transition">Home</a>
+                    <a href="/about" class="hover:text-purple-300 transition">About</a>
+                    <a href="/services" class="hover:text-purple-300 transition">Services</a>
+                    <a href="/products" class="hover:text-purple-300 transition">Products</a>
+                    <a href="/pricing" class="hover:text-purple-300 transition">Pricing</a>
                 </div>
                 
                 <div class="flex items-center space-x-4">
@@ -1117,22 +1119,22 @@ app.get('/', (c) => {
                     <div>
                         <h4 class="text-white font-semibold mb-4">Product</h4>
                         <ul class="space-y-2">
-                            <li><a href="#" class="hover:text-purple-400 transition">AI Email</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">SRM</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Data Mining</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Automation</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Analytics</a></li>
+                            <li><a href="/products" class="hover:text-purple-400 transition">AI Email</a></li>
+                            <li><a href="/products" class="hover:text-purple-400 transition">SRM</a></li>
+                            <li><a href="/products" class="hover:text-purple-400 transition">Data Mining</a></li>
+                            <li><a href="/services" class="hover:text-purple-400 transition">Automation</a></li>
+                            <li><a href="/services" class="hover:text-purple-400 transition">Analytics</a></li>
                         </ul>
                     </div>
                     
                     <div>
                         <h4 class="text-white font-semibold mb-4">Company</h4>
                         <ul class="space-y-2">
-                            <li><a href="#" class="hover:text-purple-400 transition">About Us</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Careers</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Blog</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Press</a></li>
-                            <li><a href="#" class="hover:text-purple-400 transition">Partners</a></li>
+                            <li><a href="/about" class="hover:text-purple-400 transition">About Us</a></li>
+                            <li><a href="/about" class="hover:text-purple-400 transition">Careers</a></li>
+                            <li><a href="/about" class="hover:text-purple-400 transition">Blog</a></li>
+                            <li><a href="/about" class="hover:text-purple-400 transition">Press</a></li>
+                            <li><a href="/about" class="hover:text-purple-400 transition">Partners</a></li>
                         </ul>
                     </div>
                     
