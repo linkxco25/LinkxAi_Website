@@ -200,7 +200,7 @@ app.get('/', (c) => {
                                 <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4">Linkx Mail</h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx Mail</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Smart Email Marketing That Converts</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -303,7 +303,7 @@ app.get('/', (c) => {
                                 <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">AI Powered</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4">Linkx Mining</h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx Mining</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Operations Management</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -392,7 +392,7 @@ app.get('/', (c) => {
                                 <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-semibold">Enterprise Ready</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4">Linkx SRM</h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx SRM</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Supplier Discovery</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -486,98 +486,173 @@ app.get('/', (c) => {
             </div>
         </section>
 
-        <!-- Features Section -->
-        <section id="services" class="py-20 bg-white">
+        <!-- Industries Section -->
+        <section id="industries" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-4">
                     <span class="inline-flex items-center space-x-2 bg-purple-100 text-purple-600 px-4 py-2 rounded-full text-sm font-semibold">
-                        <span>Our Core Features</span>
+                        <span>Built for Your Industry</span>
                     </span>
                 </div>
                 
                 <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 animate-on-scroll">
-                    Everything You Need to <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 animated-gradient-text">Scale</span><br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 animated-gradient-text">Your Business</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 animated-gradient-text">Tailored solutions</span> for different<br>
+                    business needs
                 </h2>
                 
                 <p class="text-center text-gray-600 text-lg mb-16 max-w-3xl mx-auto">
-                    Powerful AI-driven tools designed to automate your workflow, enhance customer relationships, and unlock growth opportunities.
+                    Industry-specific features and workflows designed to meet your unique business requirements.
                 </p>
                 
-                <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- E-commerce -->
                     <div class="bg-gradient-to-br from-purple-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
                         <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                            <i class="fas fa-envelope text-white text-2xl"></i>
+                            <i class="fas fa-shopping-cart text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4">AI Email Marketing</h3>
+                        <h3 class="text-2xl font-bold mb-4">E-commerce</h3>
                         <p class="text-gray-600 mb-6">
-                            Craft personalized emails that convert. Our AI writes, optimizes, and sends at the perfect time for maximum engagement.
+                            Manage inventory, orders, and customer relationships seamlessly
                         </p>
-                        <a href="#" class="text-purple-600 font-semibold inline-flex items-center space-x-2 hover:underline">
-                            <span>Learn more</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-purple-600 mt-1"></i>
+                                <span>Automated inventory tracking</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-purple-600 mt-1"></i>
+                                <span>Order fulfillment automation</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-purple-600 mt-1"></i>
+                                <span>Customer retention campaigns</span>
+                            </li>
+                        </ul>
                     </div>
                     
+                    <!-- Real Estate -->
                     <div class="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
-                        <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                            <i class="fas fa-users text-white text-2xl"></i>
+                        <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fas fa-home text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4">Smart Relationship Management</h3>
+                        <h3 class="text-2xl font-bold mb-4">Real Estate</h3>
                         <p class="text-gray-600 mb-6">
-                            Go beyond traditional CRM. Our SRM uses AI to predict customer needs and automate relationship nurturing.
+                            Track properties, leads, and automate client communications
                         </p>
-                        <a href="#" class="text-purple-600 font-semibold inline-flex items-center space-x-2 hover:underline">
-                            <span>Learn more</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-blue-600 mt-1"></i>
+                                <span>Property listing management</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-blue-600 mt-1"></i>
+                                <span>Lead nurturing workflows</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-blue-600 mt-1"></i>
+                                <span>Automated showing schedules</span>
+                            </li>
+                        </ul>
                     </div>
                     
+                    <!-- Professional Services -->
                     <div class="bg-gradient-to-br from-pink-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
-                        <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                        <div class="w-14 h-14 bg-pink-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fas fa-briefcase text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4">Data Mining & Insights</h3>
+                        <h3 class="text-2xl font-bold mb-4">Professional Services</h3>
                         <p class="text-gray-600 mb-6">
-                            Uncover hidden patterns in your data. Extract actionable insights that drive smarter business decisions.
+                            Project management, time tracking, and client billing
                         </p>
-                        <a href="#" class="text-purple-600 font-semibold inline-flex items-center space-x-2 hover:underline">
-                            <span>Learn more</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-pink-600 mt-1"></i>
+                                <span>Project timeline tracking</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-pink-600 mt-1"></i>
+                                <span>Automated time sheets</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-pink-600 mt-1"></i>
+                                <span>Invoice generation</span>
+                            </li>
+                        </ul>
                     </div>
                     
+                    <!-- Healthcare -->
                     <div class="bg-gradient-to-br from-green-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
-                        <div class="w-14 h-14 bg-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                            <i class="fas fa-robot text-white text-2xl"></i>
+                        <div class="w-14 h-14 bg-green-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fas fa-heart-pulse text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4">Workflow Automation</h3>
+                        <h3 class="text-2xl font-bold mb-4">Healthcare</h3>
                         <p class="text-gray-600 mb-6">
-                            Eliminate repetitive tasks. Build powerful automation workflows that save hours every week.
+                            Patient management, appointments, and compliance tracking
                         </p>
-                        <a href="#" class="text-purple-600 font-semibold inline-flex items-center space-x-2 hover:underline">
-                            <span>Learn more</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-600 mt-1"></i>
+                                <span>Patient record management</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-600 mt-1"></i>
+                                <span>Appointment scheduling</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-600 mt-1"></i>
+                                <span>HIPAA compliance tools</span>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="bg-purple-50 rounded-xl p-6 text-center">
-                        <i class="fas fa-sparkles text-purple-600 text-2xl mb-3"></i>
-                        <div class="font-semibold">AI-Powered</div>
+                    
+                    <!-- Education -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 bg-yellow-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fas fa-graduation-cap text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Education</h3>
+                        <p class="text-gray-600 mb-6">
+                            Student management, course delivery, and engagement analytics
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-yellow-600 mt-1"></i>
+                                <span>Student enrollment tracking</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-yellow-600 mt-1"></i>
+                                <span>Course content management</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-yellow-600 mt-1"></i>
+                                <span>Performance analytics</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="bg-blue-50 rounded-xl p-6 text-center">
-                        <i class="fas fa-bolt text-blue-600 text-2xl mb-3"></i>
-                        <div class="font-semibold">Lightning Fast</div>
-                    </div>
-                    <div class="bg-pink-50 rounded-xl p-6 text-center">
-                        <i class="fas fa-shield-halved text-pink-600 text-2xl mb-3"></i>
-                        <div class="font-semibold">Enterprise Security</div>
-                    </div>
-                    <div class="bg-green-50 rounded-xl p-6 text-center">
-                        <i class="fas fa-chart-bar text-green-600 text-2xl mb-3"></i>
-                        <div class="font-semibold">Advanced Analytics</div>
+                    
+                    <!-- Hospitality -->
+                    <div class="bg-gradient-to-br from-orange-50 to-white rounded-2xl p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 bg-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fas fa-hotel text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Hospitality</h3>
+                        <p class="text-gray-600 mb-6">
+                            Bookings, customer service, and reputation management
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-orange-600 mt-1"></i>
+                                <span>Reservation management</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-orange-600 mt-1"></i>
+                                <span>Guest communication</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-orange-600 mt-1"></i>
+                                <span>Review monitoring</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
