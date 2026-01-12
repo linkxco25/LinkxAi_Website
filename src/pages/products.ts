@@ -18,7 +18,7 @@ export const productsPage = `
   
   <section class="py-20 bg-gradient-to-b from-white to-purple-50">
     <div class="container mx-auto px-6">
-      <!-- Linkx Mail -->
+      <!-- AI Mail -->
       <div id="linkx-mail" class="mb-32 scroll-mt-20">
         <div class="bg-gradient-to-br from-purple-50 to-white rounded-3xl p-8 md:p-12 shadow-xl">
           <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
@@ -30,7 +30,7 @@ export const productsPage = `
                 <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
               </div>
               
-              <h3 class="text-4xl font-bold mb-4">Linkx Mail</h3>
+              <h3 class="text-4xl font-bold mb-4">AI Mail</h3>
               <h4 class="text-2xl text-purple-600 font-semibold mb-4">Smart Email Marketing</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
@@ -49,7 +49,7 @@ export const productsPage = `
             </div>
             
             <div class="relative">
-              <img src="/static/images/linkx-mail-new.png" alt="Linkx Mail" class="rounded-2xl shadow-2xl">
+              <img src="/static/images/linkx-mail-new.png" alt="AI Mail" class="rounded-2xl shadow-2xl">
             </div>
           </div>
           
@@ -108,12 +108,12 @@ export const productsPage = `
         </div>
       </div>
       
-      <!-- Linkx Mining -->
+      <!-- Mining Management -->
       <div id="linkx-mining" class="mb-32 scroll-mt-20">
         <div class="bg-gradient-to-br from-blue-50 to-white rounded-3xl p-8 md:p-12 shadow-xl">
           <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div class="order-2 md:order-1 relative">
-              <img src="/static/images/linkx-mining-new.png" alt="Linkx Mining" class="rounded-2xl shadow-2xl">
+              <img src="/static/images/linkx-mining-new.png" alt="Mining Management" class="rounded-2xl shadow-2xl">
             </div>
             
             <div class="order-1 md:order-2">
@@ -124,7 +124,7 @@ export const productsPage = `
                 <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">AI Powered</span>
               </div>
               
-              <h3 class="text-4xl font-bold mb-4">Linkx Mining</h3>
+              <h3 class="text-4xl font-bold mb-4">Mining Management</h3>
               <h4 class="text-2xl text-purple-600 font-semibold mb-4">Operations Management</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
@@ -198,7 +198,7 @@ export const productsPage = `
         </div>
       </div>
       
-      <!-- Linkx SRM -->
+      <!-- SRM -->
       <div id="linkx-srm" class="scroll-mt-20">
         <div class="bg-gradient-to-br from-pink-50 to-white rounded-3xl p-8 md:p-12 shadow-xl">
           <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
@@ -210,7 +210,7 @@ export const productsPage = `
                 <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-semibold">Enterprise Ready</span>
               </div>
               
-              <h3 class="text-4xl font-bold mb-4">Linkx SRM</h3>
+              <h3 class="text-4xl font-bold mb-4">SRM</h3>
               <h4 class="text-2xl text-purple-600 font-semibold mb-4">Supplier Discovery</h4>
               
               <p class="text-gray-600 mb-6 text-lg">
@@ -229,7 +229,7 @@ export const productsPage = `
             </div>
             
             <div class="relative">
-              <img src="/static/images/linkx-srm-new.png" alt="Linkx SRM" class="rounded-2xl shadow-2xl">
+              <img src="/static/images/linkx-srm-new.png" alt="SRM" class="rounded-2xl shadow-2xl">
             </div>
           </div>
           

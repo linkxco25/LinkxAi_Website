@@ -41,29 +41,20 @@ export const aboutPage = `
         </div>
         
         <div class="text-white">
-          <h2 class="text-3xl font-bold mb-6">Our Mission</h2>
+          <h2 class="text-3xl font-bold mb-6 text-purple-300">Our Mission</h2>
           <p class="text-lg mb-6">
-            At Linkx-AI, we're on a mission to democratize AI-powered business tools. Our platform combines the power of artificial intelligence with intuitive design, making enterprise-grade tools accessible to businesses of all sizes.
+            Linkx AI empowers businesses to achieve operational excellence through intelligent, AI-driven SaaS solutions that automate complex workflows, enhance productivity, and drive data-driven decision-making.
           </p>
           
-          <div class="space-y-4 mb-8">
-            <div class="flex items-center space-x-3">
-              <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-              <span>Customer-first approach in everything we do</span>
-            </div>
-            <div class="flex items-center space-x-3">
-              <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-              <span>Continuous innovation with cutting-edge AI</span>
-            </div>
-            <div class="flex items-center space-x-3">
-              <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-              <span>Transparent and honest business practices</span>
-            </div>
-            <div class="flex items-center space-x-3">
-              <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-              <span>Data security and privacy as top priority</span>
-            </div>
-          </div>
+          <h2 class="text-3xl font-bold mb-6 text-purple-300">Our Vision</h2>
+          <p class="text-lg mb-6">
+            To become the leading provider of industry-specific AI-powered business automation tools, transforming how companies manage procurement, communications, and operations across diverse sectors.
+          </p>
+          
+          <h2 class="text-3xl font-bold mb-6 text-purple-300">Who We Are</h2>
+          <p class="text-lg mb-8">
+            Linkx AI is an innovative technology company specializing in AI-powered Software-as-a-Service (SaaS) solutions for enterprise businesses. We develop intelligent applications that solve real-world operational challenges across procurement, email management, and resource operations. Our multi-tenant platforms combine cutting-edge AI technology with industry-specific expertise to deliver measurable ROI and operational efficiency.
+          </p>
         </div>
       </div>
       

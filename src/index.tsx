@@ -96,7 +96,7 @@ app.get('/', (c) => {
                         
                         <h1 id="hero-title" class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                             <span class="typing-text">Grow Your Business</span><br>
-                            with AI <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 typing-gradient">Software</span>
+                            with AI <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 typing-gradient">Software</span>
                         </h1>
                         
                         <p class="text-lg text-gray-300 mb-8">
@@ -189,7 +189,7 @@ app.get('/', (c) => {
                     Three cutting-edge products working together to automate your marketing, strengthen customer relationships, and unlock data-driven growth.
                 </p>
                 
-                <!-- Linkx Mail -->
+                <!-- AI Mail -->
                 <div class="mb-20 bg-gradient-to-br from-purple-50 to-white rounded-3xl p-8 md:p-12 shadow-lg">
                     <div class="grid md:grid-cols-2 gap-12 items-center">
                         <div>
@@ -200,7 +200,7 @@ app.get('/', (c) => {
                                 <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx Mail</span></h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">AI Mail</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Smart Email Marketing That Converts</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -280,19 +280,19 @@ app.get('/', (c) => {
                             <div class="absolute top-4 right-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-sparkles"></i> AI-Powered</span>
                             </div>
-                            <img src="/static/images/linkx-mail-new.png" alt="Linkx Mail" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-mail-new.png" alt="AI Mail" class="rounded-2xl shadow-xl">
                         </div>
                     </div>
                 </div>
                 
-                <!-- Linkx Mining -->
+                <!-- Mining Management -->
                 <div class="mb-20 bg-gradient-to-br from-blue-50 to-white rounded-3xl p-8 md:p-12 shadow-lg">
                     <div class="grid md:grid-cols-2 gap-12 items-center">
                         <div class="order-2 md:order-1 relative">
                             <div class="absolute top-4 left-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-robot"></i> AI Powered</span>
                             </div>
-                            <img src="/static/images/linkx-mining-new.png" alt="Linkx Mining" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-mining-new.png" alt="Mining Management" class="rounded-2xl shadow-xl">
                         </div>
                         
                         <div class="order-1 md:order-2">
@@ -303,7 +303,7 @@ app.get('/', (c) => {
                                 <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">AI Powered</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx Mining</span></h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Mining Management</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Operations Management</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -381,7 +381,7 @@ app.get('/', (c) => {
                     </div>
                 </div>
                 
-                <!-- Linkx SRM -->
+                <!-- SRM -->
                 <div class="bg-gradient-to-br from-pink-50 to-white rounded-3xl p-8 md:p-12 shadow-lg">
                     <div class="grid md:grid-cols-2 gap-12 items-center">
                         <div>
@@ -392,7 +392,7 @@ app.get('/', (c) => {
                                 <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-semibold">Enterprise Ready</span>
                             </div>
                             
-                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Linkx SRM</span></h3>
+                            <h3 class="text-3xl font-bold mb-4"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">SRM</span></h3>
                             <h4 class="text-xl text-purple-600 font-semibold mb-4">Supplier Discovery</h4>
                             
                             <p class="text-gray-600 mb-6">
@@ -472,7 +472,7 @@ app.get('/', (c) => {
                             <div class="absolute top-4 right-4 bg-white rounded-xl shadow-lg px-4 py-2">
                                 <span class="text-sm font-semibold text-purple-600"><i class="fas fa-shield-halved"></i> AI-Powered</span>
                             </div>
-                            <img src="/static/images/linkx-srm-new.png" alt="Linkx SRM" class="rounded-2xl shadow-xl">
+                            <img src="/static/images/linkx-srm-new.png" alt="SRM" class="rounded-2xl shadow-xl">
                         </div>
                     </div>
                 </div>
@@ -697,32 +697,20 @@ app.get('/', (c) => {
                     </div>
                     
                     <div class="text-white">
+                        <h3 class="text-2xl font-bold mb-4 text-purple-300">Our Mission</h3>
                         <p class="text-lg mb-6">
-                            At Linkx-AI, we're on a mission to democratize AI-powered business tools. Founded in 2017, we've helped thousands of businesses transform their operations with intelligent automation, predictive analytics, and seamless customer management.
+                            Linkx AI empowers businesses to achieve operational excellence through intelligent, AI-driven SaaS solutions that automate complex workflows, enhance productivity, and drive data-driven decision-making.
                         </p>
                         
+                        <h3 class="text-2xl font-bold mb-4 text-purple-300">Our Vision</h3>
+                        <p class="text-lg mb-6">
+                            To become the leading provider of industry-specific AI-powered business automation tools, transforming how companies manage procurement, communications, and operations across diverse sectors.
+                        </p>
+                        
+                        <h3 class="text-2xl font-bold mb-4 text-purple-300">Who We Are</h3>
                         <p class="text-lg mb-8">
-                            Our platform combines the power of artificial intelligence with intuitive design, making enterprise-grade tools accessible to businesses of all sizes.
+                            Linkx AI is an innovative technology company specializing in AI-powered Software-as-a-Service (SaaS) solutions for enterprise businesses. We develop intelligent applications that solve real-world operational challenges across procurement, email management, and resource operations. Our multi-tenant platforms combine cutting-edge AI technology with industry-specific expertise to deliver measurable ROI and operational efficiency.
                         </p>
-                        
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center space-x-3">
-                                <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-                                <span>Customer-first approach in everything we do</span>
-                            </div>
-                            <div class="flex items-center space-x-3">
-                                <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-                                <span>Continuous innovation with cutting-edge AI</span>
-                            </div>
-                            <div class="flex items-center space-x-3">
-                                <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-                                <span>Transparent and honest business practices</span>
-                            </div>
-                            <div class="flex items-center space-x-3">
-                                <i class="fas fa-check-circle text-purple-300 text-xl"></i>
-                                <span>Data security and privacy as top priority</span>
-                            </div>
-                        </div>
                         
                         <div class="grid grid-cols-3 gap-6">
                             <div class="text-center">
@@ -1058,7 +1046,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Linkx Mining helped us reduce downtime by 35%. The predictive maintenance is a real game-changer for our industry."
+                            "Mining Management helped us reduce downtime by 35%. The predictive maintenance is a real game-changer for our industry."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
@@ -1080,7 +1068,7 @@ app.get('/', (c) => {
                     <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
                         <i class="fas fa-quote-left text-purple-200 text-3xl mb-4"></i>
                         <p class="text-gray-700 mb-6 leading-relaxed">
-                            "Linkx SRM revolutionized our supply chain. We now find qualified suppliers in hours instead of weeks."
+                            "SRM revolutionized our supply chain. We now find qualified suppliers in hours instead of weeks."
                         </p>
                         <div class="flex space-x-1 mb-4">
                             <i class="fas fa-star text-yellow-400"></i>
