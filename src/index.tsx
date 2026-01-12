@@ -207,12 +207,41 @@ app.get('/', (c) => {
                                 Create personalized email campaigns powered by AI. Our intelligent system writes compelling subject lines, optimizes send times, and increases open rates by 40%.
                             </p>
                             
-                            <div class="bg-white rounded-xl p-4 mb-6 inline-block">
-                                <div class="flex items-center space-x-3">
-                                    <i class="fas fa-clock text-purple-600 text-2xl"></i>
-                                    <div>
-                                        <div class="text-2xl font-bold">20 hrs</div>
-                                        <div class="text-sm text-gray-500">Saved Per Week</div>
+                            <div class="grid grid-cols-2 gap-4 mb-6">
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-clock text-purple-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">20 hrs</div>
+                                            <div class="text-xs text-gray-500">Saved Per Week</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-envelope-open text-purple-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">40%</div>
+                                            <div class="text-xs text-gray-500">Higher Open Rates</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">3x</div>
+                                            <div class="text-xs text-gray-500">More Conversions</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-bolt text-purple-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">60%</div>
+                                            <div class="text-xs text-gray-500">Time Saved</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -281,12 +310,41 @@ app.get('/', (c) => {
                                 Complete visibility and control over mining operations. Monitor performance, optimize workflows, and reduce downtime with real-time insights.
                             </p>
                             
-                            <div class="bg-white rounded-xl p-4 mb-6 inline-block">
-                                <div class="flex items-center space-x-3">
-                                    <i class="fas fa-arrow-trend-up text-purple-600 text-2xl"></i>
-                                    <div>
-                                        <div class="text-2xl font-bold">30%</div>
-                                        <div class="text-sm text-gray-500">Reduction in Downtime</div>
+                            <div class="grid grid-cols-2 gap-4 mb-6">
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-arrow-trend-up text-blue-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">30%</div>
+                                            <div class="text-xs text-gray-500">Downtime Reduction</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">10x</div>
+                                            <div class="text-xs text-gray-500">Faster Insights</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-bullseye text-blue-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">95%</div>
+                                            <div class="text-xs text-gray-500">Accuracy Rate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-database text-blue-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">200+</div>
+                                            <div class="text-xs text-gray-500">Data Sources</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -341,12 +399,41 @@ app.get('/', (c) => {
                                 Find the perfect supplier in minutes, not days. Our AI-powered platform connects you with verified suppliers and streamlines your procurement process.
                             </p>
                             
-                            <div class="bg-white rounded-xl p-4 mb-6 inline-block">
-                                <div class="flex items-center space-x-3">
-                                    <i class="fas fa-gauge-high text-purple-600 text-2xl"></i>
-                                    <div>
-                                        <div class="text-2xl font-bold">90%</div>
-                                        <div class="text-sm text-gray-500">Faster Supplier Discovery</div>
+                            <div class="grid grid-cols-2 gap-4 mb-6">
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-gauge-high text-pink-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">90%</div>
+                                            <div class="text-xs text-gray-500">Faster Discovery</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-bullseye text-pink-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">85%</div>
+                                            <div class="text-xs text-gray-500">Lead Accuracy</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-rocket text-pink-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">2x</div>
+                                            <div class="text-xs text-gray-500">Deal Velocity</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-xl p-4 shadow-md">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-shield-halved text-pink-600 text-2xl"></i>
+                                        <div>
+                                            <div class="text-xl font-bold">45%</div>
+                                            <div class="text-xs text-gray-500">Churn Reduction</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -518,7 +605,7 @@ app.get('/', (c) => {
                                 <div class="text-5xl font-bold">7+</div>
                             </div>
                         </div>
-                        <img src="/static/images/about-section-new.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
+                        <img src="/static/images/about-team-new.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
                         <div class="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4">
                             <div class="flex items-center space-x-3">
                                 <div class="flex -space-x-2">

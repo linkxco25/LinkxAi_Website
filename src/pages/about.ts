@@ -24,7 +24,7 @@ export const aboutPage = `
               <div class="text-5xl font-bold">7+</div>
             </div>
           </div>
-          <img src="/static/images/about-section-new.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
+          <img src="/static/images/about-team-new.png" alt="About Linkx-AI" class="rounded-2xl shadow-2xl">
           <div class="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4">
             <div class="flex items-center space-x-3">
               <div class="flex -space-x-2">
@@ -93,7 +93,7 @@ export const aboutPage = `
         </div>
       </div>
       
-      <div class="text-center">
+      <div class="text-center mb-20">
         <h2 class="text-3xl font-bold text-white mb-8">Our Values</h2>
         <div class="grid md:grid-cols-4 gap-6">
           <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6">
@@ -115,6 +115,72 @@ export const aboutPage = `
             <i class="fas fa-rocket text-purple-400 text-3xl mb-4"></i>
             <h3 class="text-white font-bold mb-2">Excellence</h3>
             <p class="text-gray-300 text-sm">Quality in everything we do</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Our Story Section -->
+      <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 mb-20">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Our Story</h2>
+        <div class="grid md:grid-cols-2 gap-8 text-white">
+          <div>
+            <h3 class="text-xl font-bold mb-4 text-purple-300">The Beginning</h3>
+            <p class="text-gray-300 mb-6">
+              Linkx-AI was born in 2017 when a team of AI researchers and business professionals came together with a shared vision: to make enterprise-level AI tools accessible to businesses of all sizes. What started as a small startup in San Francisco has grown into a global platform serving thousands of businesses across 50+ countries.
+            </p>
+            <h3 class="text-xl font-bold mb-4 text-purple-300">Our Growth</h3>
+            <p class="text-gray-300">
+              Over the past 7 years, we've expanded from a single product to a comprehensive suite of AI-powered business tools. Our platform has processed over 100 million emails, managed relationships with 5 million suppliers, and analyzed terabytes of business data to help companies make smarter decisions.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4 text-purple-300">Our Technology</h3>
+            <p class="text-gray-300 mb-6">
+              We leverage cutting-edge machine learning algorithms, natural language processing, and predictive analytics to deliver real-time insights and automation. Our AI models are trained on millions of business interactions, constantly learning and improving to provide better results for our customers.
+            </p>
+            <h3 class="text-xl font-bold mb-4 text-purple-300">Looking Forward</h3>
+            <p class="text-gray-300">
+              As we continue to grow, our commitment remains unchanged: to empower businesses with AI-driven tools that are powerful yet easy to use, enterprise-grade yet affordable, and constantly evolving to meet the changing needs of modern business.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Leadership Team -->
+      <div class="mb-20">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Leadership Team</h2>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+            <div class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center">
+              <i class="fas fa-user text-white text-4xl"></i>
+            </div>
+            <h3 class="text-white font-bold mb-1">Michael Chen</h3>
+            <p class="text-purple-300 text-sm mb-2">CEO & Founder</p>
+            <p class="text-gray-300 text-xs">Former VP at Google AI, Stanford PhD</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+            <div class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full flex items-center justify-center">
+              <i class="fas fa-user text-white text-4xl"></i>
+            </div>
+            <h3 class="text-white font-bold mb-1">Sarah Williams</h3>
+            <p class="text-purple-300 text-sm mb-2">CTO</p>
+            <p class="text-gray-300 text-xs">Ex-Amazon ML Engineer, MIT Graduate</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+            <div class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-green-400 to-emerald-400 rounded-full flex items-center justify-center">
+              <i class="fas fa-user text-white text-4xl"></i>
+            </div>
+            <h3 class="text-white font-bold mb-1">David Park</h3>
+            <p class="text-purple-300 text-sm mb-2">VP of Product</p>
+            <p class="text-gray-300 text-xs">Former Product Lead at Salesforce</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+            <div class="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center">
+              <i class="fas fa-user text-white text-4xl"></i>
+            </div>
+            <h3 class="text-white font-bold mb-1">Lisa Rodriguez</h3>
+            <p class="text-purple-300 text-sm mb-2">VP of Customer Success</p>
+            <p class="text-gray-300 text-xs">20+ years in Enterprise SaaS</p>
           </div>
         </div>
       </div>

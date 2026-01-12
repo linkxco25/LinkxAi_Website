@@ -177,6 +177,90 @@ export const servicesPage = `
           </div>
         </div>
       </div>
+      
+      <!-- Service Benefits Section -->
+      <div class="bg-gradient-to-br from-purple-50 via-white to-blue-50 rounded-3xl p-8 md:p-12 mb-16">
+        <h2 class="text-3xl font-bold mb-8 text-center">Service Benefits</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-clock text-purple-600 text-3xl"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2">Save Time</h3>
+            <p class="text-gray-600">Automate repetitive tasks and free up 20+ hours per week for strategic work that drives growth.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-dollar-sign text-blue-600 text-3xl"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2">Reduce Costs</h3>
+            <p class="text-gray-600">Cut operational costs by 30-40% through intelligent automation and optimized workflows.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-rocket text-green-600 text-3xl"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2">Accelerate Growth</h3>
+            <p class="text-gray-600">Scale faster with AI-powered insights and automation that grows with your business needs.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Integration Section -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-8 text-center">Seamless Integrations</h2>
+        <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          Connect Linkx-AI with your favorite tools and platforms. Our services work seamlessly with 100+ popular business applications.
+        </p>
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-6">
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-google text-4xl text-gray-400"></i>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-microsoft text-4xl text-gray-400"></i>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-salesforce text-4xl text-gray-400"></i>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-slack text-4xl text-gray-400"></i>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-hubspot text-4xl text-gray-400"></i>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition flex items-center justify-center">
+            <i class="fab fa-stripe text-4xl text-gray-400"></i>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Customer Success Stories -->
+      <div class="bg-purple-50 rounded-3xl p-8 md:p-12">
+        <h2 class="text-3xl font-bold mb-8 text-center">Success Stories</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-xl p-6">
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-purple-600">200%</span>
+              <p class="text-gray-600 mt-2">Increase in qualified leads within first quarter</p>
+            </div>
+            <p class="text-sm text-gray-500 italic">"Linkx-AI transformed our entire sales process"</p>
+          </div>
+          <div class="bg-white rounded-xl p-6">
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-purple-600">35%</span>
+              <p class="text-gray-600 mt-2">Reduction in operational downtime</p>
+            </div>
+            <p class="text-sm text-gray-500 italic">"The data mining capabilities are game-changing"</p>
+          </div>
+          <div class="bg-white rounded-xl p-6">
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-purple-600">90%</span>
+              <p class="text-gray-600 mt-2">Faster supplier discovery</p>
+            </div>
+            <p class="text-sm text-gray-500 italic">"Found qualified suppliers in hours instead of weeks"</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   

@@ -310,56 +310,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Letter by letter animation
-    function animateLetters(element) {
-        const text = element.textContent;
-        element.textContent = '';
-        element.classList.add('animate-letters');
-        
-        text.split('').forEach((char, index) => {
-            const span = document.createElement('span');
-            span.textContent = char === ' ' ? '\u00A0' : char;
-            span.style.animationDelay = `${index * 0.05}s`;
-            element.appendChild(span);
-        });
-    }
+    // Letter by letter animation - DISABLED for section headings
+    // Only apply to main page title (h1) for cleaner experience
 
-    // Apply letter animation to section headings on scroll
-    const headingObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting && !entry.target.classList.contains('animate-letters')) {
-                // Only animate h2 and h3 headings that are main section titles
-                if (entry.target.tagName === 'H2' && entry.target.textContent.length < 100) {
-                    setTimeout(() => {
-                        animateLetters(entry.target);
-                    }, 200);
-                }
-            }
-        });
-    }, { threshold: 0.5 });
-
-    // Observe all h2 headings
-    document.querySelectorAll('h2').forEach(heading => {
-        // Skip if already has complex HTML structure
-        if (heading.children.length === 0 || heading.querySelector('span.text-transparent')) {
-            headingObserver.observe(heading);
-        }
-    });
-
-    // Fade in animation for paragraphs
-    const fadeObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in-up');
-                fadeObserver.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.2 });
-
-    // Observe paragraphs and feature cards
-    document.querySelectorAll('section p, .feature-card, .testimonial-card').forEach(element => {
-        fadeObserver.observe(element);
-    });
+    // Fade in animation - DISABLED for cleaner experience
+    // Removed to keep only title typing animation
 
     // Console welcome message
     console.log('%c🚀 Linkx-AI', 'font-size: 24px; font-weight: bold; color: #7c3aed;');
